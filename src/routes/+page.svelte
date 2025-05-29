@@ -7,16 +7,52 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CustomerCardHero from "$lib/components/layout/hero-sections/CustomerCardHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="/sample.png"
-	generating
+<CustomerCardHero
+  centered={false}
+  title="Send the right tech. Every time."
+  subtitle="Probook helps home service companies book smarter, dispatch faster, and drive more revenue—automatically."
+  customers={[
+    {
+      name: "Krystin Hines",
+      position: "Lead Dispatcher, Lion Home Service",
+      imageSrc: "/generated/image-a-cheerful-female-dispatcher-in-a-cozy-h.webp"
+    },
+    {
+      name: "Mike Sullivan",
+      position: "Lead Dispatcher, Auchinachie Services",
+      imageSrc: "/generated/image-a-focused-male-hvac-dispatcher-at-his-wo.webp"
+    },
+    {
+      name: "Brandy Heesh",
+      position: "Operations Manager, Auchinachie Services",
+      imageSrc: "/generated/image-a-poised-female-manager-of-a-plumbing-co.webp"
+    },
+    {
+      name: "Jim Sloan",
+      position: "General Manager, TR Miller Heating, Cooling & Plumbing",
+      imageSrc: "/generated/image-a-confident-male-electrical-technician-s.webp"
+    },
+    {
+      name: "Andrea Williams",
+      position: "Lead Dispatcher, Blake Brothers",
+      imageSrc: "/generated/image-a-dedicated-female-lead-dispatcher-weari.webp"
+    }
+  ]}
 />
-<LogoScroller label="" generating />
+
+<LogoScroller
+	label="Trusted by industry leaders"
+	logoUrls={[
+		'https://logo.clearbit.com/serviceexperts.com',
+		'https://logo.clearbit.com/ars.com',
+		'https://logo.clearbit.com/americanstandardair.com',
+		'https://logo.clearbit.com/onehourheatandair.com',
+		'https://logo.clearbit.com/benjaminfranklinplumbing.com'
+	]}
+/>
 
 <Summary
 	generating
