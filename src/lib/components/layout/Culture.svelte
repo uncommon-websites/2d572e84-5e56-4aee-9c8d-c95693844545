@@ -38,7 +38,7 @@
 	<div
 		class="section-py section-px container mx-auto grid gap-8 [--gap:--spacing(8)] [--radius:var(--radius-2xl)]"
 	>
-		<SectionHeader title="Our culture." subtitle="The values that guide everything we do" />
+		<SectionHeader title="Our culture: hands-on, customer obsessed, and built for impact" subtitle="We work side-by-side with dispatchers, techs, and field teams—learning directly from real users and showing up for every launch." />
 
 		<div
 			class="grid gap-(--gap)"
@@ -58,6 +58,26 @@
 					</div>
 				</div>
 			{/each}
+
+			<!-- Probook distinct culture points -->
+			<div class="relative border-t border-gray-200 pt-4 dark:border-gray-900">
+				<div class="text-caption z-10">
+					<div class="text-headline mb-[1em]">Hands-on from day one</div>
+					<div class="text-body text-gray-500 dark:text-gray-400">Every Probook launch includes our CEO and leaders. The whole team participates directly in supporting customers, learning from the field—no ivory towers here.</div>
+				</div>
+			</div>
+			<div class="relative border-t border-gray-200 pt-4 dark:border-gray-900">
+				<div class="text-caption z-10">
+					<div class="text-headline mb-[1em]">Transparency and trust</div>
+					<div class="text-body text-gray-500 dark:text-gray-400">We share wins, challenges, and customer feedback in the open. Everyone owns their impact—results always count more than titles.</div>
+				</div>
+			</div>
+			<div class="relative border-t border-gray-200 pt-4 dark:border-gray-900">
+				<div class="text-caption z-10">
+					<div class="text-headline mb-[1em]">Move fast, learn faster</div>
+					<div class="text-body text-gray-500 dark:text-gray-400">We communicate clearly, learn directly from users, and celebrate every win—then we get right into building what’s next.</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </section>

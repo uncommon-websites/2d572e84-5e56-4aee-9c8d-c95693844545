@@ -55,107 +55,112 @@
 />
 
 <Summary
-	generating
 	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	text="Probook uses AI to assign the best technician to every job in real time. Our software helps home service companies boost sales, maximize dispatcher productivity, and deliver a better customer experience—automatically."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Monica Ramos",
+			position: "Dispatcher, Onsite Air & Heat",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image:
-				"https://images.unsplash.com/photo-1571513722275-4b41940f54b8?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"With Probook, I save at least three hours a day not having to reshuffle jobs manually. I actually have time to help customers instead of fighting the board."
+			,
+			image: "/generated/image-a-cheerful-female-dispatcher-wearing-a-h.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Darius Kane",
+			position: "Operations Manager, CleanFlow Plumbing",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image:
-				"https://images.unsplash.com/photo-1600603405959-6d623e92445c?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"We used to send the wrong tech all the time, especially for tricky jobs. Probook’s recommendations cut our re-dispatches in half—and our callbacks dropped too."
+			,
+			image: "/generated/image-a-male-operations-manager-in-a-plumbing-.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Kayla Goodwin",
+			position: "Lead Dispatcher, BlueWire Electric",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image:
-				"https://images.unsplash.com/photo-1531123897727-8f129e1688ce?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"Since switching to Autopilot, our ticket average is up nearly $400 a week per tech, and I can finally take my lunch break without worrying."
+			,
+			image: "/generated/image-a-content-and-relaxed-female-dispatcher-.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="AI-powered dispatching for home services"
+	subtitle="Smarter assignments. Higher sales. Happier customers."
 	features={[
-		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
-		},
-		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
-		},
-		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
-		}
+	  {
+	    title: "AI dispatch, not guesswork",
+	    description: "Assign the best technician to every call, automatically—all based on real business data and outcomes."
+	  },
+	  {
+	    title: "Real-time ServiceTitan integration",
+	    description: "Seamless sync with ServiceTitan means your jobs and board are always up to date, no double entry required."
+	  },
+	  {
+	    title: "Two automation levels",
+	    description: "Pick Copilot for quick, data-backed suggestions or Autopilot for full board optimization—your team stays in control either way."
+	  },
+	  {
+	    title: "Super fast onboarding",
+	    description: "Launch in just 2 days with in-person training and direct support from our CEO—dispatchers learn with real jobs."
+	  },
+	  {
+	    title: "Support that actually supports",
+	    description: "Median response in 2–3 minutes and 97–100% satisfaction, so your team never feels stuck."
+	  },
+	  {
+	    title: "Proven revenue impact",
+	    description: "Customers report higher sales, more flips, and greater dispatcher efficiency—no extra payroll needed."
+	  }
 	]}
 />
 
 <UseCases
-	generating
-	title="Use Cases"
-	subtitle="Real-world applications for your business needs"
-	useCases={[
-		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings.",
-			image:
-				"https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
-			link: {
-				href: "/use-cases/workflows",
-				label: "Learn more"
-			}
-		},
-		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2488&q=80",
-			link: {
-				href: "/use-cases/data-analysis",
-				label: "Explore analytics"
-			}
-		},
-		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption.",
-			image:
-				"https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
-			link: {
-				href: "/use-cases/collaboration",
-				label: "See security features"
-			}
-		}
-	]}
+  title="Use Cases"
+  subtitle="Real-world applications for your business needs"
+  useCases={[
+    {
+      title: "Effortless large team dispatching",
+      description: "Let one dispatcher manage 20–25+ techs confidently. AI handles the board reshuffle and notifies staff of every move, so no tech or job slips through the cracks.",
+      image: "/generated/image-a-busy-office-environment-with-an-hvac-d.webp",
+      link: {
+        href: "/use-cases/large-team-dispatch",
+        label: "Learn more"
+      }
+    },
+    {
+      title: "Boost sales by matching techs",
+      description: "Probook surfaces the best technician for every call, increasing average sale and flip rate with skill-based job matching, leading to happier homeowners and more installs.",
+      image: "/generated/image-a-service-technician-dressed-in-a-unifor.webp",
+      link: {
+        href: "/use-cases/sales-upsell-matching",
+        label: "Learn more"
+      }
+    },
+    {
+      title: "Faster urgent job bookings",
+      description: "Book emergencies in seconds and keep the whole team aligned with real-time board updates and immediate job swaps, so urgent calls never stall your operation.",
+      image: "/generated/image-inside-a-modern-workspace-a-plumbing-com.webp",
+      link: {
+        href: "/use-cases/urgent-booking-efficiency",
+        label: "Learn more"
+      }
+    }
+  ]}
 />
 
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction
+  title="Make dispatch your competitive advantage"
+  subtitle="Let Probook run your board, so you can focus on your team and growth."
+  description="Switch to AI-powered dispatching that boosts sales, saves time, and delivers results—in days, not months. Trusted by leading Nexstar and ServiceTitan partners."
+  imageSrc="/generated/image-a-cheerful-home-services-dispatcher-in-a.webp"
+  callsToAction={[
+    { href: '/demo', label: 'Book a demo', variant: 'primary' },
+    { href: '/contact', label: 'Talk to sales', variant: 'secondary' },
+  ]}
+/>

@@ -37,8 +37,97 @@ Please update features according to the company's product offering. Do not remov
 	const {
 		title = "Simple, transparent pricing",
 		subtitle = "Choose the plan that works best for your needs",
-		tierNames = ["Starter", "Pro", "Enterprise"],
-		features = [
+		tierNames = ["Copilot", "Autopilot", "Enterprise"],
+	features = [
+	{
+		name: "Dispatchers supported",
+		tiers: {
+			Copilot: "Up to 3",
+			Autopilot: "Up to 8",
+			Enterprise: "Unlimited"
+		}
+	},
+	{
+		name: "Technicians supported",
+		tiers: {
+			Copilot: "Up to 15",
+			Autopilot: "Up to 40",
+			Enterprise: "Unlimited"
+		}
+	},
+	{
+		name: "Real-time job recommendations",
+		tiers: {
+			Copilot: true,
+			Autopilot: true,
+			Enterprise: true
+		}
+	},
+	{
+		name: "AI board automation",
+		tiers: {
+			Copilot: false,
+			Autopilot: true,
+			Enterprise: true
+		}
+	},
+	{
+		name: "Real-time ServiceTitan integration",
+		tiers: {
+			Copilot: true,
+			Autopilot: true,
+			Enterprise: true
+		}
+	},
+	{
+		name: "Late job alerts & proactive planning",
+		tiers: {
+			Copilot: true,
+			Autopilot: true,
+			Enterprise: true
+		}
+	},
+	{
+		name: "Technician & dispatcher analytics",
+		tiers: {
+			Copilot: true,
+			Autopilot: true,
+			Enterprise: "✓ + customization"
+		}
+	},
+	{
+		name: "Setup & onboarding",
+		tiers: {
+			Copilot: "Remote setup",
+			Autopilot: "2-day in-person launch",
+			Enterprise: "White-glove onboarding"
+		}
+	},
+	{
+		name: "Support speed (median)",
+		tiers: {
+			Copilot: "2–3 min",
+			Autopilot: "2–3 min",
+			Enterprise: "1–2 min + SLA"
+		}
+	},
+	{
+		name: "Custom integrations/permissions",
+		tiers: {
+			Copilot: false,
+			Autopilot: false,
+			Enterprise: true
+		}
+	},
+	{
+		name: "Security & compliance (SOC2, etc)",
+		tiers: {
+			Copilot: false,
+			Autopilot: false,
+			Enterprise: true
+		}
+	}
+],
 			{
 				name: "Projects",
 				tiers: {
@@ -112,7 +201,66 @@ Please update features according to the company's product offering. Do not remov
 				}
 			}
 		],
-		tiers = [
+	tiers = [
+	{
+		name: "Copilot",
+		monthlyPrice: 349,
+		yearlyPrice: 299,
+		description: "Smarter decisions made fast. Copilot keeps your dispatchers in control with clear recommendations backed by real-time data. Best for companies looking to increase revenue with a lean, modern dispatch workflow.",
+		features: [
+			"AI-powered job matching with tech strengths and sales history",
+			"Single-click actions inside ServiceTitan",
+			"Live view of dispatcher efficiency and flip rates",
+			"Supports up to 3 dispatchers and 15 techs",
+			"Proactive late alerts and arrival windows",
+			"Real-time ServiceTitan integration",
+			"Industry-best support: median 2–3 min response"
+		],
+		cta: {
+			label: "Start with Copilot",
+			href: "/signup?plan=copilot"
+		}
+	},
+	{
+		name: "Autopilot",
+		monthlyPrice: 699,
+		yearlyPrice: 599,
+		description: "High-volume automation that gets your board right, on its own. One dispatcher can manage up to 25+ techs using Probook’s intelligent reshuffling engine. Built for teams managing complex routing and large call volume at scale.",
+		features: [
+			"Automatic job reshuffling as calls come in",
+			"Dispatcher approves jobs with one click",
+			"Up to 8 dispatchers and 40+ techs",
+			"Live technician utilization tracking",
+			"Advanced routing logic with real-time updates",
+			"In-person 2-day setup with our CEO",
+			"Median support response: 2–3 min"
+		],
+		cta: {
+			label: "Start with Autopilot",
+			href: "/signup?plan=autopilot"
+		},
+		highlight: true
+	},
+	{
+		name: "Enterprise",
+		monthlyPrice: null,
+		yearlyPrice: null,
+		description: "For large or unique operations with custom workflows, integrations, or security requirements. Our team works with yours to build exactly what you need. Best for nationwide, multi-location, or highly custom operators.",
+		features: [
+			"Unlimited dispatchers and techs",
+			"Private onboarding and onsite training",
+			"Role-based permissions, regional boards, and enterprise controls",
+			"Custom integrations, analytics, and workflows",
+			"Optional white-labeling, SOC2-grade security",
+			"Dedicated support line with SLA guarantees",
+			"Direct founder-access for escalations"
+		],
+		cta: {
+			label: "Contact sales",
+			href: "/contact"
+		}
+	}
+],
 			{
 				name: "Starter",
 				monthlyPrice: 9.99,

@@ -15,35 +15,38 @@
 <Pricing />
 
 <Testimonials
-	testimonials={[
-		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
-			quote:
-				"This solution transformed our workflow and increased productivity by 35% in just two months.",
-			image:
-				"https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
-			quote:
-				"The implementation was seamless and the support team was exceptional throughout the process.",
-			image:
-				"https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
-			quote:
-				"We've tried multiple solutions, but this is the only one that perfectly addressed all our requirements.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&estimonial-3.jpg"
-		}
-	]}
+  testimonials={[
+    {
+      name: "Brian Sloan",
+      position: "President",
+      company: "TR Miller Heating, Cooling & Plumbing",
+      quote: "With Probook, we doubled our average sale and increased our flip rate by over 25%. The value we’ve seen in the first six months far surpasses the cost.",
+      image: "/generated/image-a-professional-headshot-of-a-white-male-.webp"
+    },
+    {
+      name: "Andrea Williams",
+      position: "Lead Dispatcher",
+      company: "Blake Brothers",
+      quote: "Everyone on my dispatch team sees their territory, goal, and metrics in one clear view. Training new team members is faster—and trust in dispatch decisions is way up.",
+      image: "/generated/image-a-professional-headshot-of-a-black-woman.webp"
+    },
+    {
+      name: "Chris Holleran",
+      position: "GM & VP",
+      company: "Auchinachie Services",
+      quote: "We manage 40+ techs with just two dispatchers. Probook Autopilot makes it not only possible—but easier. Their support team is second to none.",
+      image: "/generated/image-a-professional-headshot-of-a-hispanic-ma.webp"
+    }
+  ]}
 />
 
-<CallToAction />
+<CallToAction
+  title="Ready to increase revenue and tech efficiency with smarter dispatching?"
+  subtitle="Get set up in days with hands-on support from our team—including a 2-day in-person launch with our CEO."
+  description="Start driving real results on your dispatch board faster than you think. Experience the difference with Probook’s proven onboarding and customer service."
+  imageSrc="/generated/image-a-cheerful-home-services-dispatcher-sitt.webp"
+  callsToAction={[
+    { href: '/book-demo', label: 'Book a demo', variant: 'primary' },
+    { href: '/contact', label: 'Talk to sales', variant: 'secondary' }
+  ]}
+/>

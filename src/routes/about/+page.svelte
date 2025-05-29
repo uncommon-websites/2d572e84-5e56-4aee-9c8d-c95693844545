@@ -10,34 +10,37 @@
 
 	// Constants
 	const values = [
-		{
-			title: "Innovation",
-			description: "Constantly challenging the status quo to create better solutions."
-		},
-		{
-			title: "Integrity",
-			description: "Building trust through transparent actions and honest communication."
-		},
-		{
-			title: "Impact",
-			description: "Measuring our success by the positive change we create for our clients."
-		}
-	];
+  {
+    title: "Hands-on leadership",
+    description: "Our CEO personally trains dispatchers in the field to guarantee fast, confident launches."
+  },
+  {
+    title: "Built for dispatchers",
+    description: "Every feature comes from real problems faced by home service teams—and gets tested right at the board."
+  },
+  {
+    title: "Direct impact, every day",
+    description: "We celebrate real business wins: higher sales, smoother days, and more techs handled per dispatcher."
+  },
+  {
+    title: "Trust and accountability",
+    description: "Everyone owns their results—our tech, our service, and our team. If it isn't delivering, we fix it fast."
+  }
+];
 </script>
 
 <SecondaryHero
-	title="Solving world hunger"
-	subtitle="one step at a time"
-	imageSrc="https://source.unsplash.com/random/?people"
+	title="Smarter dispatching. Better results."
+	subtitle="AI schedules the right tech for every job—to boost sales, efficiency, and customer experience."
+	imageSrc="/mockups/airport-screen-1748536788779.png"
 />
 
 <!-- Story Section -->
 <Story
 	paragraphs={[
-		"We started in 2018 with a simple goal: make helpful tech that people actually need. While many chase profits, we chose to do things differently.",
-		"Beyond making good products, we care about doing the right thing, being kind to our planet, and making sure everyone can use what we build. That's our compass.",
-		"From day one, we've asked ourselves: 'Does this actually help people?' This question gets us through tough calls and shapes who we are. We're playing the long game here.",
-		"We think about how our work affects real people's lives. We build tech that brings people together, keeps your information safe, and treats everyone fairly. When we stick to these basics, good things happen."
+		"Probook started because we were tired of watching dispatchers drown in chaos. After spending countless hours with real teams in HVAC and plumbing shops, our founder George Eliadis saw the same pattern everywhere: overworked dispatchers manually reshuffling boards all day long while sales got missed, techs got frustrated, and no one had time to step back and fix it. There had to be a smarter, simpler, more human way to dispatch—one that didn’t rely on gut-feel, lucky guesses, or flying blind.",
+		"So we built Probook: intelligent dispatching software that actually helps the people doing the job. With our AI Copilot, dispatchers get smart recommendations for the best tech on each job. Flip it into Autopilot, and it automatically reshuffles the board in real-time to maximize coverage, sales, and efficiency. Get up and running in two days—our CEO joins every launch on-site to make sure the team starts strong. Questions? Our median support response time is under three minutes, with resolutions in under 30.",
+		"What makes Probook different isn’t just the tech—it’s how we built it. Hand-in-hand with some of the best dispatchers and ops teams in the country. We've helped teams like Lion Home Service boost their flip rate, helped TR Miller dispatch 40 techs on a single board, and helped Auchinachie Services finally get out of reactive decision-making. When the board works for you, not against you, everything changes."
 	]}
 />
 
@@ -47,29 +50,14 @@
 <!-- StakeholderGrid Section -->
 <StakeholderGrid
 	stakeholderType="team"
-	title="Our team."
-	subtitle="Your partners in innovation."
+	title="Our founder."
+	subtitle="Leadership you can count on."
 	stakeholders={[
 		{
-			name: "Alex Morgan",
+			name: "George Eliadis",
 			position: "Founder & CEO",
-			bio: "Started the company with a vision to transform the industry through innovative solutions.",
-			image:
-				"https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Jamie Chen",
-			position: "Chief Design Officer",
-			bio: "Award-winning designer with a passion for creating intuitive and beautiful experiences.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=776&q=80"
-		},
-		{
-			name: "Taylor Wright",
-			position: "Head of Engineering",
-			bio: "Technology enthusiast focused on building scalable systems that make a difference.",
-			image:
-				"https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
+			bio: "George Eliadis brings deep expertise in home services and a hands-on approach to every launch. As Probook's founder and CEO, he personally supports dispatchers through every step, ensuring each team succeeds and actually benefits from technology built for their day-to-day. George is dedicated to transforming dispatch from a stressful guessing game into a strategic advantage—always measured by real customer outcomes.",
+			image: "/generated/image-a-portrait-headshot-of-a-professional-ma.webp"
 		}
 	]}
 />
@@ -96,7 +84,12 @@
 
 <!-- CTA Section -->
 <CallToAction
-	title="Ready to collaborate?"
-	subtitle="Let's create something amazing"
-	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
+  title="Ready to shape the future of home services?"
+  subtitle="Join a team that puts dispatchers first"
+  description="Interested in working at Probook, seeing how our tech works, or partnering up? Let's talk—be part of the most trusted AI dispatch solution for home service pros. Book a live demo or reach out to join the team."
+  callsToAction={[
+    { href: "https://calendly.com/george-probook/demo", label: "Book a demo", variant: "primary" },
+    { href: "/careers", label: "See careers", variant: "secondary" }
+  ]}
+  imageSrc="/uploaded/andrea-blake-brothers.jpg"
 />

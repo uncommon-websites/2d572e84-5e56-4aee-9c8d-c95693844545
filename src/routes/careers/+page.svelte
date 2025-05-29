@@ -121,34 +121,31 @@
 	];
 
 	const employeeTestimonials = [
-		{
-			name: "Michael Chen",
-			position: "Senior Developer",
-			company: "Engineering Team",
-			quote:
-				"Working here has given me the opportunity to tackle challenging problems while maintaining a healthy work-life balance. The team culture is supportive and collaborative.",
-			image:
-				"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Priya Sharma",
-			position: "Product Designer",
-			company: "Design Team",
-			quote:
-				"The creative freedom and opportunity to influence product decisions makes this the best place I've ever worked. I'm constantly learning and growing.",
-			image:
-				"https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Marcus Johnson",
-			position: "Marketing Lead",
-			company: "Marketing Team",
-			quote:
-				"I joined three years ago and have grown tremendously. The leadership truly invests in your development and the work environment is both challenging and supportive.",
-			image:
-				"https://images.unsplash.com/photo-1531384441138-2736e62e0919?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		}
-	];
+  {
+    name: "Luis Mendoza",
+    position: "Support Engineer",
+    company: "Customer Success Team",
+    quote:
+      "From my first day at Probook, I felt genuinely welcomed. There’s a real sense of teamwork here—everyone roots for each other, and you always know help is just a message away. I feel proud to help our customers and to be part of a company that values respect and kindness every day.",
+    image: "/generated/image-a-professional-headshot-of-a-hispanic-ma.webp"
+  },
+  {
+    name: "Jasmine Carter",
+    position: "Product Manager",
+    company: "Product Team",
+    quote:
+      "The growth I’ve experienced at Probook is unmatched. Leadership is truly invested in your success, and there’s a strong culture of mentorship. Every new challenge here means another chance to learn. I’ve had opportunities to lead projects and shape the direction of our product in ways I never imagined possible.",
+    image: "/generated/image-a-professional-headshot-of-a-black-femal.webp"
+  },
+  {
+    name: "Emily Rhodes",
+    position: "Operations Director",
+    company: "Operations",
+    quote:
+      "What sets Probook apart is how much we actually enjoy working together. I’ve never been part of a team that is this open and collaborative—smart people, no egos. The environment is fast-paced, and we’re always encouraged to share ideas and question how things can be better. It makes every day rewarding.",
+    image: "/generated/image-a-professional-headshot-of-a-white-femal.webp"
+  }
+];
 
 	const processSteps = [
 		{
@@ -191,13 +188,23 @@
 <!-- Hero Section -->
 
 <SecondaryHero
-	title="Join our team of innovators"
-	subtitle="We're looking for passionate people to help us build the future of digital experiences. Discover your next opportunity with us."
+	title="Grow with a team that cares"
+	subtitle="Join a supportive, fast-moving crew building AI for real-world impact in home services—together, we solve meaningful problems and grow every day."
+	imageSrc="/generated/image-a-modern-open-office-space-with-large-wi.webp"
 />
 
 <!-- Why Join Us Section -->
 <section class={SECTION_BASE_CLASSES}>
-	<SectionHeader title="Why join us?" subtitle="Build your career while making an impact" />
+	<SectionHeader title="Why join us?" subtitle="Grow your career—and help shape the future of home services" />
+
+	<div class="prose max-w-none mb-12 text-body">
+		<ul>
+			<li><strong>Shape the future of home service ops:</strong> We're building real tools to drive revenue, not dashboards that collect dust.</li>
+			<li><strong>Work directly with industry leaders:</strong> We solve real frontline problems—for companies that run 20, 40, even 100+ service trucks.</li>
+			<li><strong>Early team, high impact:</strong> Every role here directly moves the business forward. No layers of approval. Big results every week.</li>
+			<li><strong>Customer-obsession built in:</strong> Support stats don’t lie—our median reply time is under 3 minutes and users feel it.</li>
+		</ul>
+	</div>
 
 	<div class="mt-16 grid gap-4 md:grid-cols-3">
 		{#each benefits as benefit}
@@ -216,17 +223,15 @@
 	<div class="mx-auto">
 		<h2 class="text-title1 mb-16">Our application process</h2>
 
-		<div class="grid gap-12 md:grid-cols-3">
-			{#each processSteps as { step, title, description }, i}
-				<div class="flex flex-col">
-					<div class="{ICON_CONTAINER_CLASSES} mb-6 size-11">
-						<span class="text-headline">{step}</span>
-					</div>
-					<h3 class="text-headline mb-3">{title}</h3>
-					<p class="text-body text-emphasis-low">{description}</p>
-				</div>
-			{/each}
-		</div>
+		<ol class="prose max-w-none mb-10">
+			<li>Submit your resume or share a short write-up. No cover letter required—we care about your experience and motivation.</li>
+			<li>Intro call (30 minutes). Meet with our team to learn more about each other and discuss your experience and goals.</li>
+			<li>Role-specific task or live session. You'll either complete a short assignment relevant to the position or join a collaborative session with us.</li>
+			<li>Final interview with leadership and future teammates.</li>
+			<li>Decision within one week. Every applicant hears back. You'll get a response within 72 hours of applying, no matter the outcome.</li>
+		</ol>
+
+		<p class="text-body text-emphasis-low">Our process is straightforward, transparent, and respectful of your time. If you have questions, we're always available to help.</p>
 	</div>
 </section>
 <!-- Current Openings Section -->
